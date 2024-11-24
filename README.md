@@ -25,7 +25,7 @@ Ejecuta los siguientes comandos para correr la API en la máquina local.
 
 - Clonar el repositorio
 
-  `git clone https://github.com/EP-2024C2/tp-ntom-grupopersistencia.git`
+  `git clone https://github.com/MaxiGomez5431/api-sqlite-productos`
 
 - Instalar dependecias dentro del directorio del proyecto
 
@@ -38,20 +38,6 @@ Ejecuta los siguientes comandos para correr la API en la máquina local.
 - Para entornos de desarrollo (como nodemon) inicializar con el comando
 
   `npm run dev`
-
-## Ejecución de la API con otro motor de base de datos
-
-El proyecto esta configurado con SQLite por defecto, si se desea cambiar el motor de db configurar:
-
-### ..
-
-### Configurar variables de entorno
-
-- Crear un archivo `.env` en la raíz del proyecto
-
-- Copiar el contenido del archivo `.env.example` al archivo `.env`.
-
-- Establecer los valores necesarios en el archivo `.env` según tu entorno.
 
 ## Modelo Relacional
 
