@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const routes = require('./routes');
-const db = require('./models');
+const routes = require('./src/routes');
+const db = require('./src/models');
 const app = express();
-const seed = require('./seeds/seed');
+const seed = require('./src/seeds/seed');
 
 const PORT = process.env.PORT || 5000;
 
